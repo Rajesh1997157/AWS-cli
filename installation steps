@@ -15,3 +15,11 @@ sudo ./aws/install
 
 # 6. Verify the installation
 aws --version
+
+#Explanation:
+#Step 1: Updates the package list to ensure you have the latest package information.
+#Step 2: Installs unzip, which is required to extract the AWS CLI installer.
+#Step 3: Downloads the AWS CLI version 2 installer for Linux (x86_64 architecture). If you're using a different architecture (e.g., ARM), replace the URL with the appropriate one from the AWS CLI documentation.
+#Step 4: Unzips the downloaded file.
+#Step 5: Runs the installer, which places the AWS CLI in /usr/local/bin/aws.
+#Step 6: Checks the installed version to confirm the installation was successful. You should see output like aws-cli/2.x.x Python/3.x.x Linux/x.x.x.
